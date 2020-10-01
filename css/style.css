@@ -27,6 +27,12 @@ p {
   font-weight: 700;
 }
 
+.text-type {
+  color: #5c6a88;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 /* Main Menu */
 .navbar-default {
   margin: 0;
@@ -134,4 +140,35 @@ p {
   font-weight: 700;
   text-decoration: none;
   text-align: center;
+}
+
+/* Section mini-list */
+.mini-list {
+  margin-top: 50px;
+}
+
+.mini-list ul.list {
+  border-left: 1px solid #8993a7;
+  padding-left: 10px;
+  margin-left: 100px;
+}
+
+.mini-list .list li {
+  list-style: none;
+  text-align: left;
+  padding: 7px 0;
+}
+
+.mini-list .list li a {
+  color: #8993a7;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.mini-list .row:last-child {
+  margin-top: 70px;
+}
+
+.mini-list .row:last-child img {
+  display: block;
 }
