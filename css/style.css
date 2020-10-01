@@ -33,6 +33,9 @@ p {
   font-size: 16px;
 }
 
+.mt-50 {
+  margin-top: 50px;
+}
 /* Main Menu */
 .navbar-default {
   margin: 0;
@@ -143,10 +146,6 @@ p {
 }
 
 /* Section mini-list */
-.mini-list {
-  margin-top: 50px;
-}
-
 .mini-list ul.list {
   border-left: 1px solid #8993a7;
   padding-left: 10px;
@@ -171,4 +170,33 @@ p {
 
 .mini-list .row:last-child img {
   display: block;
+}
+
+/* Presentation */
+.presentation img {
+  max-width: 100%;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.presentation .arrow {
+  position: relative;
+}
+
+.presentation .arrow i {
+  font-size: 40px;
+}
+
+.presentation .arrow .arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 22%;
+  transform: translateY(-50%);
+}
+
+.presentation .arrow .arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 22%;
+  transform: translateY(-50%);
 }
