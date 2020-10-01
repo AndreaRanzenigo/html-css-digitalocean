@@ -1,0 +1,88 @@
+/* General */
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2, h3, h4 {
+  color: #031c4e;
+}
+
+p {
+  color: #5c6a88;
+}
+
+/* Utilities */
+.btn-lightblue {
+  background-color: #579aff;
+  width: 100%;
+  color: #fff;
+  font-weight: 500;
+}
+
+.btn-white {
+  background-color: #fff;
+  width: 100%;
+  color: #626262;
+  font-weight: 700;
+}
+
+/* Main Menu */
+.navbar-center {
+  margin-left: 130px;
+}
+
+.navbar > .container .navbar-header .navbar-brand {
+  color: #2285fd;
+}
+
+.navbar > .container img {
+  max-width: 3%;
+  width: 3%;
+  float: left;
+  margin: 10px;
+}
+
+.navbar .navbar-center li a,
+.navbar .navbar-right li a {
+  color: #031c4e;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url(../img/assets/bg-banner-home.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.jumbotron p {
+  color: #baccff;
+}
+
+.jumbotron .box-white {
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+
+.jumbotron .box-white span {
+  display: block;
+  color: #006aff;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.jumbotron form input {
+  padding: 10px 5px;
+  border: 1px solid #eeeeee;
+  width: 100%;
+  color: #757575;
+  font-weight: 500;
+  font-size: 16px;
+}
