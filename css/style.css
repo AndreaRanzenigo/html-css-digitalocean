@@ -242,26 +242,48 @@ p {
   padding: 0 50px;
 }
 
-/* .service .box a {
-  text-align: right;
-  position: relative;
-  left: 230px;
-} */
-
-/* .service .box::after {
-  content: "";
-  display: table;
-  clear:
-}
-.service .left {
-  float: left;
-}
-
-.service .right {
-  float: left;
-} */
-
 .service .container .line {
   border-bottom: 1px solid #fff;
   line-height: 35px;
+}
+
+/* Development */
+.development img {
+  margin-top: 150px;
+}
+
+.development p {
+  padding-top: 25px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.development a {
+  display: inline-block;
+  padding-top: 25px;
+  font-weight: 500;
+}
+
+.development .arrow .arrow-left {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  font-size: 40px;
+}
+
+.development .arrow .arrow-right {
+  position: absolute;
+  top: 75%;
+  right: 5%;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 991px) {
+  .development .arrow i {
+    display: none;
+  }
+
+  .presentation .arrow i {
+    display: none;
+  }
 }
