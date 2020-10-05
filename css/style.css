@@ -36,6 +36,38 @@ p {
 .mt-50 {
   margin-top: 50px;
 }
+
+/* header */
+.collapse .navbar-right .btn-primary {
+  background-color: #fff;
+  color: #0e74ff;
+  border: 1px solid #0e74ff;
+  padding: 5px 10px;
+  margin-top: 10px;
+}
+
+.collapse .navbar-right .btn-primary:hover {
+  background-color: #0e74ff;
+  border: 1px solid #0e74ff;
+  color: #fff;
+}
+
+/* Jumbotron */
+.jumbotron .btn img {
+  width: 20px;
+  max-width: 100%;
+  float: left;
+}
+
+.jumbotron .btn-lightblue:hover {
+  background-color: #fff;
+}
+
+.jumbotron .btn-white:hover {
+  background-color: black;
+  color: #fff;
+}
+
 /* Main Menu */
 .navbar-default {
   margin: 0;
@@ -159,6 +191,11 @@ p {
   text-align: center;
 }
 
+.partners a:hover {
+  text-decoration: underline;
+  color: #031c4e;
+}
+
 /* Section mini-list */
 .mini-list ul.list {
   border-left: 1px solid #8993a7;
@@ -220,6 +257,16 @@ p {
   padding-top: 20px;
 }
 
+.presentation .circle i {
+  font-size: 10px;
+  color: #006aff;
+}
+
+.presentation .circle i:hover {
+  color: #689fec;
+  cursor: pointer;
+}
+
 /* info */
 @media screen and (max-width: 767px) {
   .info .container img {
@@ -267,15 +314,19 @@ p {
 .development .arrow .arrow-left {
   position: absolute;
   top: 75%;
-  left: 5%;
+  left: 0%;
   font-size: 40px;
 }
 
 .development .arrow .arrow-right {
   position: absolute;
   top: 75%;
-  right: 5%;
+  right: 0%;
   font-size: 40px;
+}
+
+.development span {
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
@@ -286,4 +337,84 @@ p {
   .presentation .arrow i {
     display: none;
   }
+}
+
+.development .circle i {
+  font-size: 10px;
+  color: #006aff;
+}
+
+.development .circle i:hover {
+  color: #689fec;
+  cursor: pointer;
+}
+
+/* final section */
+.final-section {
+  background-color: #0031ab;
+}
+
+.final-section h3 {
+  color: #fff;
+}
+
+.final-section .btn {
+  color: #3989ff;
+  font-weight: 700;
+  padding: 5px 10px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.final-section .btn-white {
+  width: 150px;
+}
+
+.final-section .btn-white:hover {
+  background-color: black;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #031c4e;
+}
+
+footer p {
+  color: #596786;
+  margin-top: 20px;
+  line-height: 0;
+}
+
+footer span {
+  color: #4b5b7d;
+}
+
+footer i {
+  color: #596786;
+  font-size: 20px;
+  padding: 10px 5px;
+}
+
+footer h4 {
+  color: #fff;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+footer ul li a {
+  color: #a5adbc;
+}
+
+footer .social i:hover {
+  color: #fff;
+  font-size: 25px;
+  cursor: pointer;
 }
